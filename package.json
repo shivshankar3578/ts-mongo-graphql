@@ -1,0 +1,27 @@
+{
+  "name": "ts-mongo-graphql",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "7.4.8",
+    "apollo-server": "^2.21.0",
+    "graphql": "^15.5.0",
+    "lodash": "4.17.21",
+    "mongoose": "^5.10.18",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "1.1.1",
+    "typegoose": "5.9.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.168",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "14.14.31",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
